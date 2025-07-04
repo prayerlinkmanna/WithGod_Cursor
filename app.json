@@ -8,7 +8,11 @@
     "scheme": "withgod",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.withgod.prayerapp"
@@ -31,8 +35,8 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router", 
-      "expo-font", 
+      "expo-router",
+      "expo-font",
       "expo-web-browser"
     ],
     "experiments": {
@@ -43,7 +47,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "your-project-id-here"
+        "projectId": "b865f794-5f6b-46b1-9be8-8a654c9eff5d"
       }
     }
   }
